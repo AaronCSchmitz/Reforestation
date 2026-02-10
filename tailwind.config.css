@@ -1,0 +1,61 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+@theme {
+    --font-source: "Figtree", sans-serif;
+
+    --color-primary-tree-400: #3E4D2C;
+    --color-primary-tree-300: #8A9B33;
+    --color-primary-tree-300: #9CA891;
+    --color-primary-citrus-400: #E67F26;
+    --color-primary-citrus-300: #E2A229;
+    --color-primary-citrus-200: #F2C13B;
+    --color-primary-citrus-100: #F4D06F;
+    --color-primary-zinc-100: #F4F4F5;
+    --color-secondary-grass-400: #2F7D31;
+    --color-secondary-grass-300: #90BE6D;
+    --color-secondary-grass-200: #CDE6B9;
+    --color-secondary-grass-100: #CCE5DA;
+    --color-secondary-periwinkle-400: #729BC2;
+    --color-secondary-periwinkle-300: #BDD0E2;
+    --color-secondary-tomato-400: #D61A1A;
+    --color-secondary-tomato-300: #FF9494;
+    --color-secondary-tomato-200: #FBCFCF;
+    --color-neutral-zinc-800:#222222;
+    --color-neutral-white-400: #FFFFFF;
+    --color-neutral-zinc-500: #71717B;
+    --color-neutral-zinc-300: #D4D4D8
+}
+
+
+
+@layer font {
+    .title {
+        @apply font-figtree font-bold text-[42px] leading-[72px] tracking-[0.0075em];
+    }   
+
+    .body1-semibold {
+        @apply font-figtree font-semibold text-[24px] leading-[28px];
+    }
+
+    .body1-regular {
+        @apply font-figtree font-normal text-[24px] leading-[30px];
+    }
+
+    .body2-regular {
+        @apply font-figtree font-normal text-[18px] leading-[25px];
+    }
+
+    .linktext-semibold {
+        @apply font-figtree font-bold text-[18px] leading-[24px];
+    }
+
+    .components-label {
+        @apply font-figtree font-bold text-[18px] leading-[25px];
+    }
+}
+
+.figtree {
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+}
